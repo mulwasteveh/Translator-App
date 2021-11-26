@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/family"
+        android:onClick="FAMILY"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Family"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/orange"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/numbers"
+        android:onClick="NUMBER"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Numbers"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/purple"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/colors"
+        android:onClick="COLORS"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Colors"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/Royalblue"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/phrases"
+        android:onClick="PHRASES"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="phrases"
+        android:textSize="30sp"
+        android:backgroundTint="@color/pink"
+        />
+
+
+
+</LinearLayout>
