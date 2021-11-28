@@ -2,16 +2,16 @@ package com.example.translatorapp;
 
 public class word {
     private String EnglishWord, KiswahiliWord;
-    private int image;
+    private int image, audio;
 
-    public word(){
-
+    public word() {
     }
 
-    public word(String englishWord, String kiswahiliWord, int image) {
+    public word(String englishWord, String kiswahiliWord, int image, int audio) {
         EnglishWord = englishWord;
         KiswahiliWord = kiswahiliWord;
         this.image = image;
+        this.audio = audio;
     }
 
     public String getEnglishWord() {
@@ -25,6 +25,9 @@ public class word {
     public int getImage() {
         return image;
     }
+    public int getAudio() {
+        return audio;
+    }
 
     public void setEnglishWord(String englishWord) {
         EnglishWord = englishWord;
@@ -36,5 +39,8 @@ public class word {
 
     public void setImage(int image) {
         this.image = image;
+    }
+    public void setAudio(int audio) {
+        this.audio = audio;
     }
 }

@@ -31,13 +31,18 @@ public class NumbersActivity extends AppCompatActivity {
 
 
         NumbersList = new ArrayList<>();
-        NumbersList.add(new word("One", "Moja",R.drawable.father));
-        NumbersList.add(new word("Two", "Mbili",R.drawable.mother));
-        NumbersList.add(new word("Three", "Tatu",R.drawable.sister));
-        NumbersList.add(new word("Four", "Nne",R.drawable.brother));
-        NumbersList.add(new word("Five", "Tano",R.drawable.greatgrandfather));
-        NumbersList.add(new word("Six", "Sita", R.drawable.child));
-        NumbersList.add(new word("Seven", "Saba", R.drawable.sibling));
+        NumbersList.add(new word("One", "Moja",R.drawable.father, R.raw.moja));
+        NumbersList.add(new word("Two", "Mbili",R.drawable.mother, R.raw.mbili));
+        NumbersList.add(new word("Three", "Tatu",R.drawable.sister, R.raw.tatu));
+        NumbersList.add(new word("Four", "Nne",R.drawable.brother, R.raw.nne));
+        NumbersList.add(new word("Five", "Tano",R.drawable.greatgrandfather, R.raw.tano));
+        NumbersList.add(new word("Six", "Sita", R.drawable.child, R.raw.sita));
+        NumbersList.add(new word("Seven", "Saba", R.drawable.sibling, R.raw.saba));
+        NumbersList.add(new word("Eight", "Nane", R.drawable.sibling, R.raw.nane));
+        NumbersList.add(new word("Nine", "Tisa", R.drawable.sibling, R.raw.tisa));
+        NumbersList.add(new word("Ten", "Kumi", R.drawable.sibling, R.raw.kumi));
+
+
 
 
 

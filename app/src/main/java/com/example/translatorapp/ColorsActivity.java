@@ -37,13 +37,13 @@ public class ColorsActivity extends AppCompatActivity {
 
 
         NumbersList = new ArrayList<>();
-        NumbersList.add(new word("Red", "Nyekundu",R.drawable.red));
-        NumbersList.add(new word("Orange", "Chungwa",R.drawable.orange));
-        NumbersList.add(new word("Yellow", "Manjano",R.drawable.yellow));
-        NumbersList.add(new word("Pink", "Waridi",R.drawable.pink));
-        NumbersList.add(new word("purple", "Zambarau",R.drawable.purple));
-        NumbersList.add(new word("Brown", "Kahawia", R.drawable.brown));
-        NumbersList.add(new word("Green", "Kijani kibichi", R.drawable.red));
+        NumbersList.add(new word("Red", "Nyekundu",R.drawable.red,R.raw.baba));
+        NumbersList.add(new word("Orange", "Chungwa",R.drawable.orange, R.raw.baba));
+        NumbersList.add(new word("Yellow", "Manjano",R.drawable.yellow, R.raw.baba));
+        NumbersList.add(new word("Pink", "Waridi",R.drawable.pink, R.raw.baba));
+        NumbersList.add(new word("purple", "Zambarau",R.drawable.purple, R.raw.baba));
+        NumbersList.add(new word("Brown", "Kahawia", R.drawable.brown, R.raw.baba));
+        NumbersList.add(new word("Green", "Kijani kibichi", R.drawable.red, R.raw.baba));
 
 
 

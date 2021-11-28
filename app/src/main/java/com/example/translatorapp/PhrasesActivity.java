@@ -37,12 +37,12 @@ public class PhrasesActivity extends AppCompatActivity {
 
 
         NumbersList = new ArrayList<>();
-        NumbersList.add(new word("Good morning", "Habari ya asubuhi",R.drawable.red));
-        NumbersList.add(new word("Good Evening", "Habari ya jioni",R.drawable.orange));
-        NumbersList.add(new word("Good Afternoon", "Habari ya mchana",R.drawable.yellow));
-        NumbersList.add(new word("I'm happy to see you", "Nafurahia kukuona",R.drawable.pink));
-        NumbersList.add(new word("I love you", "Nakupeda",R.drawable.purple));
-        NumbersList.add(new word("That was my fault", "Kahawia", R.drawable.brown));
+        NumbersList.add(new word("Good morning", "Habari ya asubuhi",R.drawable.red, R.raw.baba));
+        NumbersList.add(new word("Good Evening", "Habari ya jioni",R.drawable.orange, R.raw.baba));
+        NumbersList.add(new word("Good Afternoon", "Habari ya mchana",R.drawable.yellow, R.raw.baba));
+        NumbersList.add(new word("I'm happy to see you", "Nafurahia kukuona",R.drawable.pink, R.raw.baba));
+        NumbersList.add(new word("I love you", "Nakupeda",R.drawable.purple, R.raw.baba));
+        NumbersList.add(new word("That was my fault", "Kahawia", R.drawable.brown, R.raw.baba));
 
 
 
