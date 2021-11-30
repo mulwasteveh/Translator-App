@@ -14,7 +14,7 @@
         android:id="@+id/family"
         android:onClick="FAMILY"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="87dp"
         android:text="Family"
         android:textSize="30sp"
         android:textColor="@color/black"
